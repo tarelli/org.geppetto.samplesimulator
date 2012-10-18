@@ -1,19 +1,16 @@
 Manifest-Version: 1.0
+Bnd-LastModified: 1350552836793
+Build-Jdk: 1.6.0_35
+Built-By: matteocantarelli
 Bundle-ManifestVersion: 2
-Bundle-Vendor: OpenWorm
+Bundle-Name: OpenWorm Simulation Engine Sample Simulator Bundle
 Bundle-SymbolicName: org.openworm.simulationengine.samplesimulator
-Bundle-Name: Sample Simulator Bundle
 Bundle-Version: 1.0.0
-Export-Package: 
- org.openworm.simulationengine.samplesimulator;version="1.0.0",
- org.openworm.simulationengine.samplesimulator.internal
-Import-Package: org.apache.commons.logging;version="1.1.1",
- org.openworm.simulationengine.core.model,
- org.openworm.simulationengine.core.simulation,
- org.openworm.simulationengine.core.simulator,
- org.openworm.simulationengine.core.solver,
- org.springframework.beans.factory.annotation;version="3.0.0.RELEASE",
- org.springframework.stereotype;version="3.0.0.RELEASE",
- org.springframework.transaction.annotation;version="3.0.0.RELEASE"
-
-
+Created-By: Apache Maven Bundle Plugin
+Import-Package: org.apache.commons.logging;version="[1.1,2)",org.openwor
+ m.simulationengine.core.model;version="[1.0,2)",org.openworm.simulation
+ engine.core.simulation;version="[1.0,2)",org.openworm.simulationengine.
+ core.simulator;version="[1.0,2)",org.openworm.simulationengine.core.sol
+ ver;version="[1.0,2)",org.springframework.beans.factory.annotation;vers
+ ion="[3.0,4)",org.springframework.stereotype;version="[3.0,4)"
+Tool: Bnd-1.50.0
