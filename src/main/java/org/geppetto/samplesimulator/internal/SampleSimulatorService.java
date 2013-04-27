@@ -1,13 +1,13 @@
-package org.openworm.simulationengine.samplesimulator.internal;
+package org.geppetto.samplesimulator.internal;
 
 import java.util.List;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import org.openworm.simulationengine.core.model.IModel;
-import org.openworm.simulationengine.core.simulation.ITimeConfiguration;
-import org.openworm.simulationengine.core.simulator.AParallelSimulator;
-import org.openworm.simulationengine.core.solver.ISolver;
+import org.geppetto.core.model.IModel;
+import org.geppetto.core.simulation.ITimeConfiguration;
+import org.geppetto.core.simulator.AParallelSimulator;
+import org.geppetto.core.solver.ISolver;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -27,7 +27,7 @@ public class SampleSimulatorService extends AParallelSimulator {
 	private ITimeConfiguration _timeConfiguration;
 
 	/* (non-Javadoc)
-	 * @see org.openworm.simulationengine.core.simulator.ISimulator#simulate(org.openworm.simulationengine.core.model.IModel)
+	 * @see org.geppetto.core.simulator.ISimulator#simulate(org.geppetto.core.model.IModel)
 	 */
 	@Override
 	public void simulate(IModel model, ITimeConfiguration timeConfiguration) {
@@ -37,7 +37,7 @@ public class SampleSimulatorService extends AParallelSimulator {
 	}
 
 	/* (non-Javadoc)
-	 * @see org.openworm.simulationengine.core.simulator.ISimulator#startSimulatorCycle()
+	 * @see org.geppetto.core.simulator.ISimulator#startSimulatorCycle()
 	 */
 	@Override
 	public void startSimulatorCycle() 
@@ -47,7 +47,7 @@ public class SampleSimulatorService extends AParallelSimulator {
 	}
 
 	/* (non-Javadoc)
-	 * @see org.openworm.simulationengine.core.simulator.ISimulator#endSimulaorCycle()
+	 * @see org.geppetto.core.simulator.ISimulator#endSimulaorCycle()
 	 */
 	@Override
 	public void endSimulatorCycle() 
