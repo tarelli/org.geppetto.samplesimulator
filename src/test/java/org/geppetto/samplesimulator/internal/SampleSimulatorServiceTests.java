@@ -1,5 +1,6 @@
-package org.openworm.simulationengine.samplesimulator.internal;
+package org.geppetto.samplesimulator.internal;
 
+import org.geppetto.samplesimulator.internal.SampleSimulatorService;
 import org.junit.Test;
 
 /**
