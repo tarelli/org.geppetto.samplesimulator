@@ -1,8 +1,8 @@
-package org.openworm.simulationengine.samplesimulator;
+package org.geppetto.samplesimulator;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.openworm.simulationengine.core.simulator.ISimulator;
+import org.geppetto.core.simulator.ISimulator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
